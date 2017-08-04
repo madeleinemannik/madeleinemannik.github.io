@@ -1,0 +1,299 @@
+
+h1{
+	text-align: center;
+}
+
+h1{
+	font-family: "cantora one"
+}
+
+h2{
+	font-family: "cantora one"
+}
+
+h2{
+	text-align: center;
+}
+
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 25px;
+}
+.undertext{
+	color: white;
+}
+.undertext{
+	text-align: center;
+}
+
+.undertext{
+	font-family: "cantora one"
+}
+
+
+.header{
+	background-image: url("../bilder/fika2.jpg");
+	background-size: cover;
+}
+
+h1{
+	margin: 0;
+}
+
+.centrering{
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
+
+h1{
+	color: white;
+}
+h2{
+	color: black;
+}
+
+.kommentarsrubrik{
+	color: white;
+}
+.recept{
+	color: white;
+
+}
+.underrubrik{
+	color: white;
+
+}
+.menynamn{
+	color: white;
+}
+
+.sökruta{
+	font-size: 30px;
+}
+
+
+
+.sökruta{
+	text-align: center;
+}
+
+.hamburgare{
+	background-color: lightgrey;
+}
+
+
+.sökruta{
+	color: black;
+}
+
+.col-sm-3{
+	padding: 0;
+}
+.centrering{
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
+.whitebox{
+    position: absolute;
+    top: 1400px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+.whiteboxpo{
+	position: absolute;
+    top: 100px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+#hejhejhej{
+	position: absolute;
+	top: 2000px;
+	background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+
+
+.whitebox40{
+	position: absolute;
+    top: 450px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+.whitebox1{
+	position: absolute;
+    top: 100px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+.whitebox4{
+	position: absolute;
+	top: 100px;
+	background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+.whitebox6{
+	position: absolute;
+	top: 420px;
+	background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+#bajs{
+	top:1000px;
+}
+
+.whitebox7{
+	position: absolute;
+	top: 115px;
+	background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+.parallax {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+#svart2{
+	top: 1300px;
+}
+
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+#kommentarssida{
+	background-color: white;
+}
+.menyraderna{
+	color: white;
+}
+.header2{
+	background-color: black;
+}
+
+#svart5{
+	position: 500px;
+}
+
+#pasta{
+	position: 400px;
+}
+
+#lasagn{
+	position: 400px;
+}
+
+
+#svart3{
+	top: 1200px;
+}
+
+
+.hat1{
+	position: absolute;
+    right: 35px;
+    top: 30%;
+    width: 90px;
+}
+
+.hat{
+	position: absolute;
+    right: 130px;
+    top: 39%;
+    width: 60px;
+}
+
+
+.bye{
+	position: absolute;
+	left: 35px;
+	top: -80px;
+	width: 93px;
+}
+
+.tjo{
+	position: absolute;
+	left: 130px;
+	top: -50px;
+	width: 60px;
+}
+
+
+
+
+
+
+#kommentarer{
+	width: 50%;
+	margin: auto
+}
+
+body{
+	background-color: black;
+
+
+
+
+
+
+
+
+
+
