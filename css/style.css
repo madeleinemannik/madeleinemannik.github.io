@@ -123,7 +123,7 @@ h2{
 
 #hejhejhej{
 	position: absolute;
-	top: 2000px;
+	top: 1850px;
 	background: rgba(255,255,255,0.6);
     margin-left:50%;
     transform: translateX(-50%);
@@ -131,7 +131,11 @@ h2{
     border: 1px solid #e71b2d;
 }
 
-
+.rubrik {
+	position: absolute;
+	top: 1350px;
+	left: 630px;
+}
 
 
 .whitebox40{
@@ -274,9 +278,6 @@ h2{
 	top: -50px;
 	width: 60px;
 }
-
-
-
 
 
 
