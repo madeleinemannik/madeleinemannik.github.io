@@ -1,0 +1,94 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+ <!-- Angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Kommentarsfält</title>
+<link rel="icon" type="image/png" href="bilder/komentarer11.png">
+
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="kommentarssida" ng-app="app">
+            <div class="header2">
+            <div class="container">
+            <h1>KOMMENTARSFÄLT</h1>
+            <h3 class="undertext">Här kan du kommentera saker t ex om du testat recepten</h3>
+                <ul class="nav navbar-nav centrering">
+                <li><a class="menyraderna" class="navbar-brand" class="menyraderna" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                    <li><a class="menyraderna" href="menyval1.html">Lunch</a></li>
+                    <li><a class="menyraderna" href="menyval2.html">Middag</a></li>
+                    <li><a class="menyraderna" href="menyval3.html">Bakelser</a></li>
+                </ul>
+            </div>
+            </div>
+
+<center>
+<h4>Här kan du läsa kommentarerna:</h4>
+</center>
+
+<center>
+<div ng-controller="KommentarCtrl" id="kommentarer">
+<div ng-repeat="kommentar in kommentarer">
+<br>
+    <p><b>{{ kommentar.skribent }}</b> {{ kommentar.text }}</p>
+</div>
+<br>
+    <form ng-submit="addComment()">
+    <div class="form-group">
+        <input placeholder="Ditt namn" type="text" class="form-control" ng-model="kommentar.skribent">
+    </div>
+    <div class="form-group">
+        <input placeholder="Din kommentar" type="text" class="form-control" ng-model="kommentar.text">
+    </div>
+    <button type="submit" class="btn btn-primary">Publicera kommentar</button>
+</form>
+</div>
+</div>
+</center>
+
+
+<img class="hat1" src="bilder/hejhej.png" width="15%">
+<img class="hat" src="bilder/tummener.png" width="60px">
+  <div class="col-sm-10">
+<img class="bye" src="bilder/nohate.png" width="10%">
+<img class="tjo" src="bilder/tummenupp.png" width="60px">
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
